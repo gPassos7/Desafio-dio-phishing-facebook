@@ -1,60 +1,58 @@
-Desafio DIO – Phishing Facebook (Ambiente Educacional)
+# Desafio DIO - Phishing Facebook
 
-Este repositório faz parte de um desafio educacional da DIO, com o objetivo de compreender como funcionam ataques de engenharia social, especificamente phishing, utilizando ferramentas de segurança ofensiva em ambiente controlado.
+Este projeto faz parte do **desafio da DIO** sobre **Segurança da Informação**, utilizando o **Social-Engineer Toolkit (SET)** para simular um ataque de *phishing* em ambiente controlado.  
+⚠️ **Atenção:** Este material é apenas para fins educacionais. Nunca utilize este conhecimento para prejudicar terceiros.
 
-Aviso:
-Este projeto possui finalidade exclusivamente educacional. A utilização dessas técnicas fora de ambientes de laboratório ou sem autorização é ilegal.
+---
 
-Ferramenta Utilizada
+## Ferramenta Utilizada
+- **Social-Engineer Toolkit (SET)**  
+  O SET é uma ferramenta de *social engineering* usada para testes de segurança e conscientização.
 
-SEToolkit (Social-Engineer Toolkit)
-Ferramenta utilizada para simulação de ataques de engenharia social em estudos de segurança da informação e pentest.
+---
 
-Etapas do Processo
-1. Inicialização do SEToolkit
+## Passo a Passo
 
-O SEToolkit foi iniciado com privilégios de root, conforme exigido pela ferramenta.
+### 1. Inicialização
+Executei o SET como **root** e selecionei a opção:
+- **Social Engineering Attacks**
 
-sudo setoolkit
+![SET Inicialização](https://github.com/user-attachments/assets/41d66826-98be-4c42-8767-e97df1a4bdd2)
 
-Em seguida, foi selecionada a opção:
+---
 
-Social-Engineering Attacks
+### 2. Vetores de Ataque
+Escolhi:
+- **Website Attack Vectors**
 
-2. Website Attack Vectors
+![Website Attack](https://github.com/user-attachments/assets/cacd91b1-de8b-422d-a922-b7987a0bb94b)
 
-Após isso, foi selecionada a opção responsável por ataques baseados em páginas web:
+---
 
-Website Attack Vectors
+### 3. Método de Captura
+Utilizei:
+- **Credential Harvester Attack Method**
 
-3. Credential Harvester Attack Method
+![Credential Harvester](https://github.com/user-attachments/assets/f3a63ca8-6808-44b4-904c-5b29c9ec4e88)
 
-Para realizar a captura das credenciais digitadas pelo usuário, foi utilizada a opção:
+---
 
-Credential Harvester Attack Method
+### 4. Clonagem do Site
+Clonei a página de login do **Facebook** para simulação.
 
-4. Clonagem da Página do Facebook
+![Clone Facebook](<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/41122869-7ecf-4b4b-b025-975f968b031a" />
+)
 
-O SEToolkit foi configurado para clonar a página de login do Facebook, criando uma página falsa visualmente idêntica à original.
+---
 
-Resultado
+## Resultado
+O SET gerou uma **página de login falsa** que captura credenciais e exibe os dados diretamente no terminal.
 
-Foi criada uma página falsa de login do Facebook
+![Resultado](<img width="1440" height="900" alt="543491213-3140ad92-2a81-4807-999a-e53984741dcf" src="https://github.com/user-attachments/assets/dad07d04-3e4a-4ecf-b3e1-ebdda961c655" />
+)
 
-As credenciais inseridas pelo usuário são capturadas
+---
 
-Os dados coletados são exibidos diretamente no terminal
-
-Objetivo do Desafio
-
-Compreender o funcionamento de ataques de phishing
-
-Aprender a identificar ataques de engenharia social
-
-Aplicar conceitos básicos de segurança da informação
-
-Demonstrar conhecimento prático em ambientes controlados
-
-Conclusão
-
-Este desafio demonstra como ataques de phishing podem ser executados por meio de engenharia social, reforçando a importância da conscientização em segurança digital, validação de URLs, atenção a páginas falsas e uso de autenticação em dois fatores
+## Aviso Importante
+Este projeto é **apenas para fins educacionais**.  
+Não utilize este conhecimento para fins maliciosos. O objetivo é **entender como ataques funcionam** para melhor se proteger e conscientizar usuários.
