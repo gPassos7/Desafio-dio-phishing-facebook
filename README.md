@@ -1,19 +1,60 @@
-# Desafio-dio-phishing-facebook
-isso e o projeto do desafio da dio de criar uma pagina de phising do facebook
-## seToolKit
-o seToolKit e uma ferramenta de social-enginner, inicializei ela como root e selecionei a opçao de social engineering atacks
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/41d66826-98be-4c42-8767-e97df1a4bdd2" />
+Desafio DIO – Phishing Facebook (Ambiente Educacional)
 
-depois selecionei o web site attack vectors
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/cacd91b1-de8b-422d-a922-b7987a0bb94b" />
-usei tmb a crendencial haverste attack method
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/f3a63ca8-6808-44b4-904c-5b29c9ec4e88" />
-e fiz a clonegem do facebook
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3b907bb2-48fe-45ce-897b-c88e3c9a5814" />
+Este repositório faz parte de um desafio educacional da DIO, com o objetivo de compreender como funcionam ataques de engenharia social, especificamente phishing, utilizando ferramentas de segurança ofensiva em ambiente controlado.
+
+Aviso:
+Este projeto possui finalidade exclusivamente educacional. A utilização dessas técnicas fora de ambientes de laboratório ou sem autorização é ilegal.
+
+Ferramenta Utilizada
+
+SEToolkit (Social-Engineer Toolkit)
+Ferramenta utilizada para simulação de ataques de engenharia social em estudos de segurança da informação e pentest.
+
+Etapas do Processo
+1. Inicialização do SEToolkit
+
+O SEToolkit foi iniciado com privilégios de root, conforme exigido pela ferramenta.
+
+sudo setoolkit
+
+Em seguida, foi selecionada a opção:
+
+Social-Engineering Attacks
+
+2. Website Attack Vectors
+
+Após isso, foi selecionada a opção responsável por ataques baseados em páginas web:
+
+Website Attack Vectors
+
+3. Credential Harvester Attack Method
+
+Para realizar a captura das credenciais digitadas pelo usuário, foi utilizada a opção:
+
+Credential Harvester Attack Method
+
+4. Clonagem da Página do Facebook
+
+O SEToolkit foi configurado para clonar a página de login do Facebook, criando uma página falsa visualmente idêntica à original.
+
 Resultado
 
-###Pagina de login falsa
-criou uma pagina e entrega os dados no promp de comando
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3140ad92-2a81-4807-999a-e53984741dcf" />
+Foi criada uma página falsa de login do Facebook
 
+As credenciais inseridas pelo usuário são capturadas
 
+Os dados coletados são exibidos diretamente no terminal
+
+Objetivo do Desafio
+
+Compreender o funcionamento de ataques de phishing
+
+Aprender a identificar ataques de engenharia social
+
+Aplicar conceitos básicos de segurança da informação
+
+Demonstrar conhecimento prático em ambientes controlados
+
+Conclusão
+
+Este desafio demonstra como ataques de phishing podem ser executados por meio de engenharia social, reforçando a importância da conscientização em segurança digital, validação de URLs, atenção a páginas falsas e uso de autenticação em dois fatores
