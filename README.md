@@ -40,7 +40,7 @@ Utilizei:
 ### 4. Clonagem do Site
 Clonei a página de login do **Facebook** para simulação.
 
-![Clone Facebook](<img width="1440" height="900" alt="543491213-3140ad92-2a81-4807-999a-e53984741dcf" src="https://github.com/user-attachments/assets/b0d10846-927c-4ffc-8c25-de3a78e31b22" />
+![Clone Facebook](<img width="1440" height="900" alt="543491213-3140ad92-2a81-4807-999a-e53984741dcf" src="https://github.com/user-attachments/assets/d031814d-2f92-45a7-a134-31a1f697d8a6" />
 
 )
 
@@ -49,7 +49,7 @@ Clonei a página de login do **Facebook** para simulação.
 ## Resultado
 O SET gerou uma **página de login falsa** que captura credenciais e exibe os dados diretamente no terminal.
 
-![Resultado](<img width="1440" height="900" alt="543490129-3b907bb2-48fe-45ce-897b-c88e3c9a5814" src="https://github.com/user-attachments/assets/d031814d-2f92-45a7-a134-31a1f697d8a6" />
+![Resultado](<img width="1440" height="900" alt="543490129-3b907bb2-48fe-45ce-897b-c88e3c9a5814" src="https://github.com/user-attachments/assets/b0d10846-927c-4ffc-8c25-de3a78e31b22" />
 
 )
 
